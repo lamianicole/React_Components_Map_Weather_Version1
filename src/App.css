@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Wochenansicht */
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Tag-Komponente */
+.wrap-tag {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+}
+
+.wrap-tag h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.wrap-tag h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #0073e6;
+}
+
+.wrap-tag p {
+    margin: 5px 0;
+}
